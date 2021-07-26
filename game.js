@@ -62,6 +62,8 @@ class Game{
                          text(allPlayers[plr].name ,x-25,y+25);
 
                          //text to display player score
+                       fill("white");
+                       textSize(25);
                          text("fruits Collected: "+player.score, 250, 50)
 
                          if(player.score>=10){
